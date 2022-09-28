@@ -13,7 +13,7 @@ def random_color_func(word=None, font_size=None, position=None, orientation=None
 
     return "hsl({}, {}%, {}%)".format(h, s, l)
 
-file_content=open ("amb.txt").read()
+file_content=open ("./data/annihilation_of_caste.txt").read()
 
 #mask = np.array(Image.open('index_.png'))
 wordcloud = WordCloud(stopwords = STOPWORDS,
@@ -28,3 +28,6 @@ plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis('off')
 plt.title('Annihilation of Caste: Dr. B. R. Ambedkar')
 plt.show()
+
+# store to file
+wordcloud.to_file(path.join(d, "annihilation_of_caste.png"))
