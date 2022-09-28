@@ -13,7 +13,7 @@ This is an initial step and lots of books need to be collected.
 
 * Look beyond wordcloud
 
-If you find this initiative interesting, then why not consider to the project.
+If you find this initiative interesting, then why not consider contributing to the project.
 
 
 
